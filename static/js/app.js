@@ -62,9 +62,8 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    for (filteredData; filteredData < tableData.length; filteredData++)
-    {console.log(tableData[filteredData]);}
-  
+    filteredData = filteredData.filter(row => row.state === "ca");
+
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
   }
