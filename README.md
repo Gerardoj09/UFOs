@@ -10,5 +10,5 @@
 
 ## Summary
 ### A potential drawback of this new design would be that the user might introduce mixed data that do not match with any other value in the dataset, so the table will not display any matching value; this might confuse the final user.
-### My first recommendation would be to include again a button to initialize the filtering action.
-### The second recommendation would be to include a "clear" button to clear the input data by the user from all fields.
+### An improvement could be to include again a button to initialize the filtering action.
+### An additional improvement would be to include a "clear" button to clear the input data by the user from all fields.
